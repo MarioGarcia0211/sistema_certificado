@@ -1,0 +1,52 @@
+/* Navbar */
+.navbar{
+    display: flex;
+}
+
+.centrar{ 
+    display: flex;
+    align-items: center;
+}
+/* Final navbar */
+
+/* Footer */
+footer{
+    margin-top: 10px;
+    background-color: #1c2331;
+    color: #ffff;
+    position: absolute;
+    width: 100%;
+}
+/* Final footer */
+
+/* Contenedor global */
+.contenedor{
+    background: #f4f5f8;
+    padding: 15px;
+    min-height: 79.6vh;
+}
+/* Contenedor global */
+
+/* Registar usuario */
+.form-group{
+    padding-bottom: 20px;
+}
+/* Final registrar usuario */
+
+.notItemOne > option:first-child{
+    display: none;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 990px) {
+    .contenedor{
+      min-height: 82.5vh;
+    }
+}

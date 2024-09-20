@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    height: 100vh;
+    background: #0d6efd;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloLogin{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login{
+    background: white;
+    height: min-content;
+    width: 360px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.registro{
+    background: white;
+    height: min-content;
+    width: 760px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .registro{
+      height: 100vh;
+      width: 100%;
+      border-radius: 0;
+    }
+}
